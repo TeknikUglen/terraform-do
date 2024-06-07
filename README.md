@@ -1,5 +1,11 @@
 # Terraform
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue)](https://opensource.org/licenses/ISC)
+[![Terraform](https://img.shields.io/badge/Automation-Terraform-green)](https://www.terraform.io/)
+
+**Note!** Due to Terraform pulling a BC stunt it's advisable to use [OpenTofu](https://opentofu.org/) instead. It's a drop in replacement (for now).  
+In the future it's expected the two will diverge.
+
 ## sources
 
 - https://www.howtogeek.com/devops/how-to-create-a-digitalocean-droplet-using-terraform/
@@ -223,5 +229,3 @@ terraform destroy
 ```
 
 add `-auto-approve` to skip interactive prompt.
-
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
